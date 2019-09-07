@@ -1,3 +1,5 @@
+import math
+
 print ('Hallo Team')
 
 print ('xiaojiu' + 'xiaozhu')
@@ -88,7 +90,9 @@ print(a*2)
 
 print(a<<1)
 
-x=0
+x=10
+
+
 
 y=10
 
@@ -98,6 +102,70 @@ else:
     print('one or all false')
 
 
+y=100
+
+if (x is y):
+    print('x is y')
+else:
+    print('x is not y')
+
+x=10
+
+print(x)
+
+x=float(x)
+
+
+x=1.125456
+
+print(round(x,2))
+
+print(max(1,2,3,4,5,5,6,7))
+
+str="you are shit"
+
+print('1',str[0:2])
+
+print('[0]',str[0:2])
+
+
+
+print(str[0:2])
+
+
+str1='987654321'
+
+print(str1[6:7])
+
+list0=[1,23,4,5,65]
+
+list1=['1',2,'kljlkajsdlkj', list0]
+
+print(list0[1])
+
+print(list1[3])
+
+list0[2]=10000
+
+#print(list0)
+
+del list0[2]
+
+#print(list0)
+
+#list0.append(1)
+
+#list0.clear()
+
+list1=[1,2,3,4,5,6,7]
+
+list1.pop(2)
+
+list1.remove('1')
+
+
+
+print(list1)
 
 
 
